@@ -2,8 +2,8 @@ var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
-console.log (nameInput.val)
-addListItem( (nameInput.val) + "/notes", (noteList) )
+console.log (nameInput.val())
+addListItem( (nameInput.val()) + "/notes", (noteList) )
 
 
 nameInput.keydown(function(e) {
