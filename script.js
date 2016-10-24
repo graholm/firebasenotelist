@@ -1,8 +1,8 @@
-addListItem("bob" + "/notes", "whats up" )
-
+addListItem( (name) + "/notes", (note) )
 
 var name;
 var nameInput = $("#name-input")
+
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
