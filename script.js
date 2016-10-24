@@ -1,9 +1,10 @@
-addListItem( (nameInput.val) + "/notes", (noteList) )
-console.log (nameInput.val)
-
 var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
+
+console.log (nameInput.val)
+addListItem( (nameInput.val) + "/notes", (noteList) )
+
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
@@ -13,14 +14,14 @@ nameInput.keydown(function(e) {
   }	
 })
 
-function getNotesForName(name) {  
-if (e.which == 13){
-var valueToSave = noteInput.val();
-console.log (valueToSave)
-}
-
-noteInput.keydown(function(e) {
-  if (e.which == 13) {    
-    addListItem(name + "/notes", noteInput.val())
-  }
-}
+//function getNotesForName(name) {  
+//if (e.which == 13){
+//var valueToSave = noteInput.val();
+//console.log (valueToSave)
+//}
+//
+//noteInput.keydown(function(e) {
+//  if (e.which == 13) {    
+//    addListItem(name + "/notes", noteInput.val())
+//  }
+//}
