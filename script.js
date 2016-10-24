@@ -12,14 +12,6 @@ nameInput.keydown(function(e) {
   }	
 })
 
-noteInput.keydown(function(e) {
-  if (e.which == 13) {
-    var valueToSave = noteInput.val();
-    addListItem("noteList", valueToSave);
-    console.log (valueToSave)
-  }	
-})
-
 function getNotesForName(name) {  
   onNewListItem(name + "/notes", function(note) {
     console.log(note)
