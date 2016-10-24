@@ -2,7 +2,7 @@ var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
-nameInput.keydown(function(e) {
+noteInput.keydown(function(e) {
   if (e.which == 13) {
     console.log ("hi",nameInput.val())
     addListItem( (nameInput.val()) + "/notes", noteInput.val())
