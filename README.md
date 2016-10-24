@@ -1,0 +1,2 @@
+# firebasenotelist
+Classadoo generated repo
