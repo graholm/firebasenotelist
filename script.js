@@ -1,4 +1,5 @@
-addListItem( (nameInput) + "/notes", (noteList) )
+addListItem( (nameInput.val) + "/notes", (noteList) )
+console.log (nameInput.val)
 
 var nameInput = $("#name-input")
 var noteInput = $("#note-input")
@@ -22,4 +23,4 @@ noteInput.keydown(function(e) {
   if (e.which == 13) {    
     addListItem(name + "/notes", noteInput.val())
   }
-})
+}
