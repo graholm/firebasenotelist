@@ -1,4 +1,4 @@
-addListItem(name + "/notes", noteInput.val())
+addListItem("grace" + "/notes", "hi" )
 
 
 var name;
