@@ -1,4 +1,4 @@
-addListItem("grace" + "/notes", "hi" )
+addListItem("bob" + "/notes", "whats up" )
 
 
 var name;
