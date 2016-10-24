@@ -16,8 +16,8 @@ function getNotesForName(name) {
   })
 }
 
-//noteInput.keydown(function(e) {
-//  if (e.which == 13) {    
-//    addListItem(name + "/notes", noteInput.val())
-//  }
-//}
+noteInput.keydown(function(e) {
+  if (e.which == 13) {    
+    addListItem(name + "/notes", noteInput.val())
+  }
+}
