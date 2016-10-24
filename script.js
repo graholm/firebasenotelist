@@ -6,10 +6,9 @@ var noteList = $("#note-list")
 
 nameInput.keydown(function(e) {
   if (e.which == 13) {
-    console.log (valueToSave)
+    console.log (nameInput)
     var valueToSave = nameInput.val();
-    addListItem("nameList", valueToSave);
- 
+    addListItem("nameList", valueToSave); 
   }	
 })
 
