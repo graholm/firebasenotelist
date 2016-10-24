@@ -12,15 +12,14 @@ nameInput.keydown(function(e) {
   }	
 })
 
-//
-//function getNotesForName(name) {  
-//if (e.which == 13){
-//var valueToSave = noteInput.val();
-//console.log (valueToSave)
-//}
-//
-//noteInput.keydown(function(e) {
-//  if (e.which == 13) {    
-//    addListItem(name + "/notes", noteInput.val())
-//  }
-//})
+function getNotesForName(name) {  
+if (e.which == 13){
+var valueToSave = noteInput.val();
+console.log (valueToSave)
+}
+
+noteInput.keydown(function(e) {
+  if (e.which == 13) {    
+    addListItem(name + "/notes", noteInput.val())
+  }
+})
