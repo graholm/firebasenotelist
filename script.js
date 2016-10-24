@@ -2,12 +2,10 @@ var nameInput = $("#name-input")
 var noteInput = $("#note-input")
 var noteList = $("#note-list")
 
-console.log ("hi",nameInput.val())
-addListItem( (nameInput.val()) + "/notes", (noteList) )
-
-
 nameInput.keydown(function(e) {
   if (e.which == 13) {
+    console.log ("hi",nameInput.val())
+    addListItem( (nameInput.val()) + "/notes", (noteInput) )
     var valueToSave = nameInput.val();
     addListItem("nameList", valueToSave); 
   }	
