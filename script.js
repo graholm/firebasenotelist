@@ -8,7 +8,7 @@ nameInput.keydown(function(e) {
   if (e.which == 13) {
     var valueToSave = nameInput.val();
     addListItem("nameList", valueToSave);
-    console.log (valueToSave)
+    console.log (nameInput)
   }	
 })
 
@@ -16,8 +16,7 @@ function getNotesForName(name) {
   if (e.which == 13){
     var valueToSave = noteInput.val();
   } 	
-  onNewListItem(name + "/notes", function(note) )
-    console.log(note)
+  onNewListItem(name + "/notes", function(note)
   }
 
 
