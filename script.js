@@ -13,7 +13,6 @@ noteInput.keydown(function(e) {
 
 function getNotesForName(name) {  
   onNewListItem(name + "/notes", function(note) {
-    console.log(note)
   })
 }
 
