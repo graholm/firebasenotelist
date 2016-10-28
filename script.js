@@ -20,4 +20,4 @@ noteInput.keydown(function(e) {
   if (e.which == 13) {    
     addListItem(name + "/notes", noteInput.val())
   }
-}
+})
